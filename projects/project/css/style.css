@@ -1,0 +1,8 @@
+img{
+    display:block;
+    max-width:65%;
+    margin:auto;
+    padding:20px;
+    border: 2px solid rgb(67, 45, 99);
+    box-sizing:border-box;
+}

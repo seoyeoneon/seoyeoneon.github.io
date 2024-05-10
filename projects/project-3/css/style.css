@@ -52,3 +52,9 @@ h5{
     color: rgb(240, 251, 221);
     position: fixed;
 }
+
+h6{font-size: 15px;
+    color: #fff7fd;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

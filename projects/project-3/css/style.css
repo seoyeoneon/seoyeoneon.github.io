@@ -8,7 +8,7 @@ img{
     box-sizing:border-box;
 }
 
-image:hover{
+img:hover{
     align-self: hover; 
     box-shadow: 5px rgb(#f5c4eb);
     filter: blur(5px);

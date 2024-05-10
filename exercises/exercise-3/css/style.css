@@ -1,0 +1,131 @@
+/* fonts */
+@font-face {
+    font-family: 'sprat';
+    src: url('../fonts/web/Sprat-CondesedRegular.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'sprat';
+    src: url('../fonts/web/Sprat-CondesedRegular.woff2') format('woff2-variations');
+}
+
+
+/* Animations */
+@keyframes heading-colors {
+    0% {
+    color:hsl(84, 33%, 50%)
+    }
+    25%{
+    color:hsl(183, 33%, 50%)
+    }
+    50%
+    {
+    color:hsl(216, 33%, 50%)
+    }
+    75%
+    {
+    color:hsl(277, 33%, 50%)
+    }
+    100%
+    {
+    color:hsl(335, 33%, 50%)
+    }
+
+}
+
+/* Base styles */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:hsl(60, 41%, 85%);
+    max-width: 850px;
+    margin:auto;
+}
+
+main{
+    background-color:hsl(177, 20%, 65%);
+    margin-left: 300px;
+    margin:auto;
+
+}
+
+h1{
+    animation:heading-colors 5s ease infinite;
+}
+
+p{
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+img{
+    display:block;
+    max-width:65%;
+    margin:auto;
+    padding:20px;
+    border: 2px solid greenyellow;
+    box-sizing:border-box;
+}
+
+.intro {
+    color:rgb(0, 52, 31);
+    width: 50%;
+}
+
+/* Navigation styles */
+
+nav a{
+font-family: monospace;
+font-weight: bold;
+color:blue;
+transition: color is ease
+}
+nav a:hover{
+color:bisque;
+background-color: darksalmon;
+transition: color is ease
+}
+
+nav {
+    background-color:hsl(177, 20%, 65%);
+    color: rgb(255, 28, 213);
+   font-size: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: fixed;
+   top: 0; 
+   left: 0;
+   width:300px;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+
+a:hover {
+    font-size: 25px;
+}
+
+p {
+    font-family: 'sprat',Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+    font-family: 'sprat',serif;
+    font-stretch: 100%;
+    font-weight: 100;
+    transition: all 0.5 ease;
+}
+
+h4:hover {
+    font-weight: 200;
+}
+
+h2{
+        font-family: "Micro 5 Charted", sans-serif;
+      }
+      

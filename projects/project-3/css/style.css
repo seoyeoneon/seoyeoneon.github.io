@@ -1,0 +1,54 @@
+
+img{
+    display:block;
+    max-width:20%;
+    margin:auto;
+    padding:20px;
+    border: 2px solid rgb(219, 207, 232);
+    box-sizing:border-box;
+}
+
+image:hover{
+    align-self: hover; 
+    box-shadow: 5px rgb(#f5c4eb);
+    filter: blur(5px);
+    transition: all 0.5s ease;
+}
+
+h1{
+    font-size:40px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: rgb(251, 221, 238);
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+h2{
+    font-size: 10px;
+    color: #feffec;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    font-size: 15px;
+    color: #fff7fd;
+    text-align: center;
+}
+
+h4 {
+    font-size:10px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: rgb(255, 215, 234);
+    position: fixed;
+}
+
+h5{
+    font-size:10px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: rgb(240, 251, 221);
+    position: fixed;
+}
